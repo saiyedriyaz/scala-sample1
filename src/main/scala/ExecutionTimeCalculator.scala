@@ -5,7 +5,7 @@ object ExecutionTimeCalculator {
       val jobs = getDefaultInput()
       try {
         val calculated = calculateJobTime(args(0).toInt, jobs)
-        println("total execution time = {} for job id {}", calculated, args(0).toInt)
+        println("total execution time = "+calculated+" for job id ="+args(0).toInt)
       } catch {
         case s: NumberFormatException => println("Invalid Id provided.")
       }
