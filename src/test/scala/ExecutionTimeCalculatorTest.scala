@@ -3,7 +3,7 @@ import org.scalatest.FunSuite
 
 class ExecutionTimeCalculatorTest extends FunSuite {
 
-  val testData1 = ExecutionTimeCalculator.getDefaultInput()
+  val testData1: Array[Job] = ExecutionTimeCalculator.getDefaultInput()
 
   val testData2 = Array(
     Job(1, 30, Array(2)),
@@ -35,5 +35,4 @@ class ExecutionTimeCalculatorTest extends FunSuite {
       calculateJobTime(2, testData2)
     }
   }
-
 }

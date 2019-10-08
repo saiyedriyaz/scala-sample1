@@ -25,3 +25,5 @@ version := "1.0"
 // You can define other libraries as dependencies in your build like this:
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.6.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % "test"
+libraryDependencies += "com.novocode" % "junit-interface" % "0.8" % "test->default"
+//libraryDependencies += "junit" %% "junit" % "4.12"
