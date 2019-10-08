@@ -3,12 +3,7 @@ This solution is define in Scala + Java and uses SBT to build and run.
 
 Follow below link to download and install sbt
 https://www.scala-sbt.org/download.html
-
-Command to execute solution with sample data is: ~run <jobid>
-For example, in order to find the execution time fo job id 2, run command "~run 2"
-
-Command to execute the test cases is: ~test
-#############################################
+############################
 
 # # # # # # # # /TASK 1. Given a non-empty string s and a list wordList containing a list of non-empty tokens, determine if s can be represented as a concatenation of tokens from the list (where each token may be used several times). You may assume the dictionary does not contain duplicate tokens.
 # # # # # # #
@@ -62,6 +57,12 @@ Command to execute the test cases is: ~test
 
 ######################
 Below is old task
+
+Command to execute solution with sample data is: ~run <jobid>
+For example, in order to find the execution time fo job id 2, run command "~run 2"
+
+Command to execute the test cases is: ~test
+#############################################
 ############################################
 # Problem Statement 3
 // Given a job struct definition below write a function that takes 2 inputs:
