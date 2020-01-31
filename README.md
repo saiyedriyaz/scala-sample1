@@ -1,4 +1,4 @@
-# luxoft-assignment
+# Problem
 This solution is define in Scala + Java and uses SBT to build and run.
 
 Follow below link to download and install sbt
